@@ -4,7 +4,7 @@ const PORT =process.env.PORT || 4040
 
 const app = express();
 
-app.use("/", (req, res) => {
+app.use("/greet", (req, res) => {
   res.send('SALOMLAR!');
 });
 
