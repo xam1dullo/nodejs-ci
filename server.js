@@ -8,6 +8,10 @@ app.use("/greet", (req, res) => {
   res.send('SALOMLAR!');
 });
 
+app.use("/app", (req, res) => {
+  res.send('APPLOCATION!');
+});
+
 app.use((req, res) => {
   res.send('ASSALOMU ALAYKUM!.');
 });
