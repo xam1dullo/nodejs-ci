@@ -8,7 +8,7 @@ deploy: pull install run
 
 # Target to pull the latest changes from git
 pull:
-    git pull origin $(BRANCH)
+    git pull origin main
 
 # Target to install dependencies
 install:
