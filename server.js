@@ -22,6 +22,10 @@ app.use('/app', (req, res) => {
   res.send('APPLOCATION!');
 });
 
+app.use('/test', (req, res) => {
+  res.send('test!');
+});
+
 app.use((req, res) => {
   res.send('ASSALOMU ALAYKUM!.');
 });
